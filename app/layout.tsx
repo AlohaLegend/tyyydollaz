@@ -13,11 +13,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://tyyydollaz.liammoherlihy.chatgpt.site"),
   title: "TY$ — Fell In Luv",
   description: "Astronaut Status. Listen to Fell In Luv, the debut single from TY$.",
+  openGraph: {
+    title: "TY$ — Fell In Luv",
+    description: "Astronaut Status. Listen to the debut single from TY$.",
+    type: "website",
+    images: [{ url: "/og.png", width: 1731, height: 909, alt: "TY$ — Fell In Luv. Astronaut Status." }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "TY$ — Fell In Luv",
+    description: "Astronaut Status. Listen to the debut single from TY$.",
+    images: ["/og.png"],
+  },
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/media/fell-in-luv.jpg",
+    shortcut: "/media/fell-in-luv.jpg",
   },
 };
 
