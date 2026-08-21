@@ -45,9 +45,6 @@ export default function Home() {
       <audio ref={audioRef} preload="metadata" src="/media/fell-in-luv-preview.m4a" />
       <div className="noise" aria-hidden="true" />
       <div className="scanlines" aria-hidden="true" />
-      <div className="orb orb-one" aria-hidden="true" />
-      <div className="orb orb-two" aria-hidden="true" />
-
       <header className="topbar">
         <a className="wordmark" href="#top" aria-label="TY$ home">TY$</a>
         <p>TRANSMISSION 001</p>

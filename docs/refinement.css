@@ -1,0 +1,22 @@
+.site {
+  background: #5b16c8;
+}
+
+.noise {
+  opacity: .075;
+  mix-blend-mode: multiply;
+}
+
+.scanlines {
+  opacity: .018;
+  background: repeating-linear-gradient(to bottom, transparent 0, transparent 5px, #000 6px);
+}
+
+.signal-copy {
+  opacity: .09;
+  transform: rotate(-3.5deg) translate(-2%, -2%);
+}
+
+.cover-wrap {
+  box-shadow: 17px 20px 0 rgba(17, 2, 28, .32);
+}
