@@ -14,23 +14,23 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://tyyydollaz.liammoherlihy.chatgpt.site"),
-  title: "TY$ — Fell In Luv",
-  description: "Astronaut Status. Listen to Fell In Luv, the debut single from TY$.",
+  title: "TY$ — backwood wrappers",
+  description: "Astronaut Status. Listen to backwood wrappers, the latest release from shiire and TY$.",
   openGraph: {
-    title: "TY$ — Fell In Luv",
-    description: "Astronaut Status. Listen to the debut single from TY$.",
+    title: "TY$ — backwood wrappers",
+    description: "The latest signal from shiire and TY$.",
     type: "website",
-    images: [{ url: "/og.png", width: 1731, height: 909, alt: "TY$ — Fell In Luv. Astronaut Status." }],
+    images: [{ url: "/media/backwood-wrappers.jpg", width: 640, height: 640, alt: "backwood wrappers by shiire and TY$." }],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "TY$ — Fell In Luv",
-    description: "Astronaut Status. Listen to the debut single from TY$.",
-    images: ["/og.png"],
+    card: "summary",
+    title: "TY$ — backwood wrappers",
+    description: "The latest signal from shiire and TY$.",
+    images: ["/media/backwood-wrappers.jpg"],
   },
   icons: {
-    icon: "/media/fell-in-luv.jpg",
-    shortcut: "/media/fell-in-luv.jpg",
+    icon: "/media/backwood-wrappers.jpg",
+    shortcut: "/media/backwood-wrappers.jpg",
   },
 };
 
