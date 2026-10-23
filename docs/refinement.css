@@ -1,5 +1,9 @@
 .site {
-  background: #5b16c8;
+  --acid: #a9f7ff;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(112, 190, 255, .32), transparent 30%),
+    radial-gradient(circle at 82% 84%, rgba(73, 18, 174, .62), transparent 38%),
+    #281273;
 }
 
 .noise {
@@ -32,15 +36,29 @@
 }
 
 .primary-listen .timeline i {
-  width: 62%;
+  width: 74%;
+}
+
+.ice-title {
+  font-size: clamp(46px, 5.8vw, 84px);
+  line-height: .82;
+  letter-spacing: -.065em;
+}
+
+.release-card {
+  min-width: 0;
+}
+
+.previous-signals {
+  margin-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, .3);
 }
 
 .previous-release {
   width: 100%;
-  margin-top: 12px;
-  padding: 13px 2px 0;
+  margin: 0;
+  padding: 11px 2px;
   border: 0;
-  border-top: 1px solid rgba(255, 255, 255, .3);
   color: rgba(255, 255, 255, .68);
   background: transparent;
   display: grid;
@@ -51,6 +69,11 @@
   letter-spacing: .12em;
   text-align: left;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.previous-release + .previous-release {
+  border-top: 1px solid rgba(255, 255, 255, .16);
 }
 
 .previous-release strong {
@@ -65,6 +88,10 @@
 @media (max-width: 780px) {
   .long-title {
     font-size: clamp(44px, 15vw, 64px);
+  }
+
+  .ice-title {
+    font-size: clamp(34px, 11vw, 56px);
   }
 
   .previous-release {

@@ -4,15 +4,15 @@ const label = document.querySelector("#playLabel");
 play.addEventListener("click", async () => {
   if (audio.paused) {
     await audio.play();
-    label.textContent = "PAUSE PREVIEW Ⅱ";
+    label.textContent = "PAUSE Ⅱ";
     play.setAttribute("aria-label", "Pause Fell In Luv preview");
   } else {
     audio.pause();
-    label.textContent = "PLAY PREVIEW ▶";
+    label.textContent = "PREVIEW ▶";
     play.setAttribute("aria-label", "Play Fell In Luv preview");
   }
 });
 
 audio.addEventListener("ended", () => {
-  label.textContent = "PLAY PREVIEW ▶";
+  label.textContent = "PREVIEW ▶";
 });

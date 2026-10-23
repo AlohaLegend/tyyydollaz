@@ -13,24 +13,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tyyydollaz.liammoherlihy.chatgpt.site"),
-  title: "TY$ — backwood wrappers",
-  description: "Astronaut Status. Listen to backwood wrappers, the latest release from shiire and TY$.",
+  metadataBase: new URL("https://alohalegend.github.io/tyyydollaz/"),
+  title: "TY$ — everlasting ice",
+  description: "Astronaut Status. Listen to everlasting ice, the new single from TY$ featuring shiire.",
   openGraph: {
-    title: "TY$ — backwood wrappers",
-    description: "The latest signal from shiire and TY$.",
+    title: "TY$ — everlasting ice",
+    description: "Transmission 003. The new single from TY$ featuring shiire.",
     type: "website",
-    images: [{ url: "/media/backwood-wrappers.jpg", width: 640, height: 640, alt: "backwood wrappers by shiire and TY$." }],
+    images: [{ url: "/media/everlasting-ice.jpg", width: 640, height: 640, alt: "everlasting ice by TY$ featuring shiire." }],
   },
   twitter: {
     card: "summary",
-    title: "TY$ — backwood wrappers",
-    description: "The latest signal from shiire and TY$.",
-    images: ["/media/backwood-wrappers.jpg"],
+    title: "TY$ — everlasting ice",
+    description: "Transmission 003. The new single from TY$ featuring shiire.",
+    images: ["/media/everlasting-ice.jpg"],
   },
   icons: {
-    icon: "/media/backwood-wrappers.jpg",
-    shortcut: "/media/backwood-wrappers.jpg",
+    icon: "/media/everlasting-ice.jpg",
+    shortcut: "/media/everlasting-ice.jpg",
   },
 };
 
